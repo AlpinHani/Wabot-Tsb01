@@ -64,7 +64,7 @@ https://github.com/Kangsad01/Wabot-Tsb01
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
         totaluser = Object.keys(db.data.users)
-        await this.setStatus(`Aktif selama ${uptime} │ Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} │ total user : ${totaluser.length} │ ◈ Made by The.sad.boy01`).catch(_ => _)
+        await this.setStatus(`Aktif selama ${uptime} │ Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} │ total user : ${totaluser.length} │ ◈ Made by Alpin`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
