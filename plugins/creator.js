@@ -1,45 +1,15 @@
 const { MessageType } = require('@adiwajshing/baileys')
 const PhoneNumber = require('awesome-phonenumber')
 async function handler(m) {
-  let name = 'ᴛʜᴇ.ꜱᴀᴅ.ʙᴏʏ01⟿͡⃟͜✪͜͡๘ཱུᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭ྆྆྆྆ғʀ͠ɪᴇɴ͠ᴅ♟᭄' //ubah jadi namamu
+  let name = 'AlpinXD' //ubah jadi namamu
   number = owner[0].replace(/[^0-9]/g, '')
   let njid = number + '@s.whatsapp.net'
   let onW = await this.isOnWhatsApp(njid) || { isBusiness: false }
 
-  let name2 = 'Bochil Gaming' //ubah jadi namamu
+  let name2 = 'Hanii' //ubah jadi namamu
   number2 = owner[1].replace(/[^0-9]/g, '')
   let njid2 = number2 + '@s.whatsapp.net'
   let onW2 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
-  
-  let name3 = 'Kanna Bot' //ubah jadi namamu
-  number3 = owner[2].replace(/[^0-9]/g, '')
-  let njid3 = number3 + '@s.whatsapp.net'
-  let onW3 = await this.isOnWhatsApp(njid3) || { isBusiness: false }
-  
-  let name4 = 'ᵀᵒʰʳᵘ ᴮᴼᵀᶻ' //ubah jadi namamu
-  number4 = owner[3].replace(/[^0-9]/g, '')
-  let njid4 = number4 + '@s.whatsapp.net'
-  let onW4 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
-  
-  let name5 = 'Nurutomo' //ubah jadi namamu
-  number5 = owner[4].replace(/[^0-9]/g, '')
-  let njid5 = number5 + '@s.whatsapp.net'
-  let onW5 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
-  
-  let name6 = 'ariffb' //ubah jadi namamu
-  number6 = owner[5].replace(/[^0-9]/g, '')
-  let njid6 = number6 + '@s.whatsapp.net'
-  let onW6 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
-  
-  let name7 = 'Adi-official' //ubah jadi namamu
-  number7 = owner[6].replace(/[^0-9]/g, '')
-  let njid7 = number7 + '@s.whatsapp.net'
-  let onW7 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
-  
-  let name8 = '๘ɪs͠ʟ͠ᴀ́🇮🇩๘ཱུᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭᮭ྆྆྆྆ғʀ͠ɪᴇɴ͠ᴅ�♟᭄' //ubah jadi namamu
-  number8 = owner[7].replace(/[^0-9]/g, '')
-  let njid8 = number8 + '@s.whatsapp.net'
-  let onW8 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
   
   this.sendMessage(m.chat, {
     contacts: [{
